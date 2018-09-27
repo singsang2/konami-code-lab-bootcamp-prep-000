@@ -21,7 +21,7 @@ function init() {
     if (k === codes[index]){
       index++;
       if (index === codes.length){
-        alert("YESSSSSSSS!");
+        window.alert("YESSSSSSSS!");
         index = 0;
       }
     } else {
