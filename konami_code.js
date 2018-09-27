@@ -21,6 +21,7 @@ function init() {
     if (k === codes[index]){
       index++;
       if (index === codes.length){
+        console.log('yay')
         window.alert("YESSSSSSSS!");
         index = 0;
       }
